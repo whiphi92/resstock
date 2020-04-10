@@ -13,6 +13,7 @@ If your changes are intended to be merged into the master branch of the `OpenStu
 
    modifying_probability_distributions
    writing_housing_characteristics
+   weather_data
    installer_setup
    rake_tasks
    options_lookup
