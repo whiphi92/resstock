@@ -1,41 +1,41 @@
 !- NOTE: Auto-generated from /test/osw_files/Denver.osw
 
 OS:Version,
-  {20fac570-eb79-49c8-9618-6fce53de90f2}, !- Handle
+  {248ab3f8-c18a-4675-a194-03f0ac20747c}, !- Handle
   2.9.0;                                  !- Version Identifier
 
 OS:SimulationControl,
-  {a6cf0a39-6f51-4084-889a-ea18116ac60e}, !- Handle
+  {0b7b4d32-92fa-4288-9299-5ea822eda29f}, !- Handle
   ,                                       !- Do Zone Sizing Calculation
   ,                                       !- Do System Sizing Calculation
   ,                                       !- Do Plant Sizing Calculation
   No;                                     !- Run Simulation for Sizing Periods
 
 OS:Timestep,
-  {c13a1615-296d-408a-b961-5027d7d3dd22}, !- Handle
+  {d191253a-36e8-44f9-8f80-097ef1fb698a}, !- Handle
   6;                                      !- Number of Timesteps per Hour
 
 OS:ShadowCalculation,
-  {42720e97-0b3c-4cac-8818-80a348661b2e}, !- Handle
+  {ea0dbc73-eb02-4aa8-8455-d5b648799343}, !- Handle
   20,                                     !- Calculation Frequency
   200;                                    !- Maximum Figures in Shadow Overlap Calculations
 
 OS:SurfaceConvectionAlgorithm:Outside,
-  {3431088c-3a3b-4626-840e-0226fc970918}, !- Handle
+  {134c84e2-b5ea-47bb-abda-13b87ad4b0b5}, !- Handle
   DOE-2;                                  !- Algorithm
 
 OS:SurfaceConvectionAlgorithm:Inside,
-  {fb533d65-37f5-4990-9a80-f6b7db045ce4}, !- Handle
+  {a5ba944e-8cfc-404d-bd85-bb567e72169b}, !- Handle
   TARP;                                   !- Algorithm
 
 OS:ZoneCapacitanceMultiplier:ResearchSpecial,
-  {cee87a58-73f9-469f-a81c-2e223e1b55aa}, !- Handle
+  {23212354-e84a-4bcc-9ca5-39dde7e42c12}, !- Handle
   ,                                       !- Temperature Capacity Multiplier
   15,                                     !- Humidity Capacity Multiplier
   ;                                       !- Carbon Dioxide Capacity Multiplier
 
 OS:RunPeriod,
-  {9f89f386-014d-489a-804d-cd19d83339f2}, !- Handle
+  {c5e8b597-5da1-479c-ba41-2c7392d79045}, !- Handle
   Run Period 1,                           !- Name
   1,                                      !- Begin Month
   1,                                      !- Begin Day of Month
@@ -49,13 +49,13 @@ OS:RunPeriod,
   ;                                       !- Number of Times Runperiod to be Repeated
 
 OS:YearDescription,
-  {3c6764ec-129f-4b96-aedd-afb16672d0cc}, !- Handle
+  {ad1311a6-1361-4d6d-9595-5cd6eb8e16df}, !- Handle
   2007,                                   !- Calendar Year
   ,                                       !- Day of Week for Start Day
   ;                                       !- Is Leap Year
 
 OS:WeatherFile,
-  {4df56151-e543-49e6-b081-c189308b2a5b}, !- Handle
+  {d6b29497-8e06-4b4f-a115-3e5c839bec04}, !- Handle
   Denver Intl Ap,                         !- City
   CO,                                     !- State Province Region
   USA,                                    !- Country
@@ -69,8 +69,8 @@ OS:WeatherFile,
   E23378AA;                               !- Checksum
 
 OS:AdditionalProperties,
-  {fb4006c5-f5a8-484a-8d30-be99857b070f}, !- Handle
-  {4df56151-e543-49e6-b081-c189308b2a5b}, !- Object Name
+  {ed55847c-c8f6-40b6-96f4-87987ee47b89}, !- Handle
+  {d6b29497-8e06-4b4f-a115-3e5c839bec04}, !- Object Name
   EPWHeaderCity,                          !- Feature Name 1
   String,                                 !- Feature Data Type 1
   Denver Intl Ap,                         !- Feature Value 1
@@ -178,7 +178,7 @@ OS:AdditionalProperties,
   84;                                     !- Feature Value 35
 
 OS:Site,
-  {bb38ee4c-3d02-4c6b-b2f0-b1fbb2765916}, !- Handle
+  {5d07bb8f-2477-4f55-a47f-39445ef78490}, !- Handle
   Denver Intl Ap_CO_USA,                  !- Name
   39.83,                                  !- Latitude {deg}
   -104.65,                                !- Longitude {deg}
@@ -187,7 +187,7 @@ OS:Site,
   ;                                       !- Terrain
 
 OS:ClimateZones,
-  {702d05fa-35d9-4085-9fa6-5c765099a8b8}, !- Handle
+  {f9b15741-a863-4c79-a9cc-69f20919e8d8}, !- Handle
   ,                                       !- Active Institution
   ,                                       !- Active Year
   ,                                       !- Climate Zone Institution Name 1
@@ -200,19 +200,19 @@ OS:ClimateZones,
   Cold;                                   !- Climate Zone Value 2
 
 OS:Site:WaterMainsTemperature,
-  {a9ac5c93-2b4c-48c3-be3c-f3770a98f8c5}, !- Handle
+  {171878ae-500e-4d22-abee-3ec81f3ab498}, !- Handle
   Correlation,                            !- Calculation Method
   ,                                       !- Temperature Schedule Name
   10.8753424657535,                       !- Annual Average Outdoor Air Temperature {C}
   23.1524007936508;                       !- Maximum Difference In Monthly Average Outdoor Air Temperatures {deltaC}
 
 OS:RunPeriodControl:DaylightSavingTime,
-  {bea07d93-816f-4654-9380-6890b9264508}, !- Handle
+  {80762904-0d99-4f5f-bd4d-456f1df1ca23}, !- Handle
   4/7,                                    !- Start Date
   10/26;                                  !- End Date
 
 OS:Site:GroundTemperature:Deep,
-  {5096dc16-30db-45f3-925c-39de5b4a392c}, !- Handle
+  {f25d45d6-3f5a-4f79-b12a-104fac037337}, !- Handle
   10.8753424657535,                       !- January Deep Ground Temperature {C}
   10.8753424657535,                       !- February Deep Ground Temperature {C}
   10.8753424657535,                       !- March Deep Ground Temperature {C}
